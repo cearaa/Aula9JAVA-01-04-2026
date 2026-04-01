@@ -44,7 +44,7 @@ public class Main {
 
             System.out.printf("Canal: %d\nVolume: %d\n", tv1.getCanal(), tv1.getVolume());
         } catch (Exception e) {
-            System.out.println(e.getMessage());;
+            System.out.println(e.getMessage());
         }
     }
 }

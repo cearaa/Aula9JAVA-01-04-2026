@@ -14,7 +14,7 @@ public class Televisor {
             if (volume >= 0 && volume <= 20){
                 this.volume = volume;
             } else {
-                throw new Exception(" Volume fora dos pâmentros");
+                throw new Exception(" Volume fora dos parâmetros");
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
